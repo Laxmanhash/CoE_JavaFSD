@@ -1,0 +1,40 @@
+import java.io.*;
+import java.nio.file.*;
+import java.util.*;
+
+public class LogFileAnalyzer {
+    private List<String> keywords;
+    public LogFileAnalyzer(List<String> keywords) {
+        this.keywords = keywords;
+    }
+    public void analyzeLogFile(String inputFile, String outputFile) throws IOException {
+        List<String> lines = Files.readAllLines(Paths.get(inputFile));
+        Map<String, Integer> keywordCount = new HashMap<>();
+        for (String keyword : keywords) {
+            keywordCount.put(keyword, 0);
+        }
+        for (String line : lines) {
+            for (String keyword : keywords) {
+                if (line.contains(keyword)) {
+                    keywordCount.put(keyword, keywordCount.get(keyword) + 1);
+                }
+            }
+        }
+        try (BufferedWriter writer = Files.newBufferedWriter(Paths.get(outputFile))) {
+            for (String keyword : keywords) {
+                writer.write("Keyword: " + keyword + " - Count: " + keywordCount.get(keyword));
+                writer.newLine();
+            }
+        }
+    }
+    public static void main(String[] args) {
+        List<String> keywords = Arrays.asList("ERROR", "WARNING", "INFO");
+        LogFileAnalyzer analyzer = new LogFileAnalyzer(keywords);
+        try {
+            analyzer.analyzeLogFile("input_log.txt", "output_report.txt");
+            System.out.println("Log analysis complete. Results written to output_report.txt");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
