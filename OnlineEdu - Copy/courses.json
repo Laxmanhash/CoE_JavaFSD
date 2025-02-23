@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Full Stack Web Development",
+        "description": "Master front-end and back-end development with hands-on projects.",
+        "instructor": "John Doe"
+    },
+    {
+        "name": "Data Science with Python",
+        "description": "Learn data analysis, visualization, and machine learning with Python.",
+        "instructor": "Jane Smith"
+    },
+    {
+        "name": "Machine Learning & AI",
+        "description": "Understand ML algorithms and implement AI-driven solutions.",
+        "instructor": "Dr. Alex Brown"
+    },
+    {
+        "name": "Cybersecurity Essentials",
+        "description": "Learn how to protect networks and prevent cyber threats.",
+        "instructor": "Lisa Green"
+    },
+    {
+        "name": "Cloud Computing with AWS",
+        "description": "Gain expertise in cloud deployment and AWS services.",
+        "instructor": "Mike Johnson"
+    },
+    {
+        "name": "UI/UX Design Fundamentals",
+        "description": "Master user interface and experience design with industry tools.",
+        "instructor": "Emily Davis"
+    },
+    {
+        "name": "Data Analytics with SQL",
+        "description": "Learn how to extract insights from databases using SQL.",
+        "instructor": "Robert White"
+    },
+    {
+        "name": "Mobile App Development",
+        "description": "Build iOS and Android apps with React Native and Flutter.",
+        "instructor": "Kevin Thomas"
+    },
+    {
+        "name": "Blockchain Development",
+        "description": "Understand blockchain technology and build smart contracts.",
+        "instructor": "Sophia Martinez"
+    },
+    {
+        "name": "Python for Beginners",
+        "description": "Learn Python programming from scratch.",
+        "instructor": "Chris Wilson"
+    },
+    {
+        "name": "Game Development with Unity",
+        "description": "Create interactive games using Unity and C#.",
+        "instructor": "David Brown"
+    },
+    {
+        "name": "ReactJS Frontend Development",
+        "description": "Master React for building scalable web applications.",
+        "instructor": "Jessica Taylor"
+    },
+    {
+        "name": "Ethical Hacking & Penetration Testing",
+        "description": "Learn ethical hacking techniques to secure systems.",
+        "instructor": "Mark Lewis"
+    },
+    {
+        "name": "Big Data & Hadoop",
+        "description": "Manage and analyze large-scale datasets using Hadoop.",
+        "instructor": "Rachel Adams"
+    },
+    {
+        "name": "DevOps & CI/CD Pipeline",
+        "description": "Master continuous integration and deployment techniques.",
+        "instructor": "Daniel Clark"
+    },
+    {
+        "name": "Internet of Things (IoT) Basics",
+        "description": "Learn about IoT devices and smart technology.",
+        "instructor": "Nancy Lopez"
+    },
+    {
+        "name": "Artificial Intelligence for Business",
+        "description": "Leverage AI for business automation and decision-making.",
+        "instructor": "Oliver Harris"
+    },
+    {
+        "name": "Cyber Forensics & Incident Response",
+        "description": "Investigate and respond to cybersecurity incidents.",
+        "instructor": "Ethan Turner"
+    },
+    {
+        "name": "Robotic Process Automation (RPA)",
+        "description": "Automate repetitive tasks using RPA tools.",
+        "instructor": "Laura Evans"
+    },
+    {
+        "name": "Google Cloud Platform (GCP) Fundamentals",
+        "description": "Get started with cloud solutions on Google Cloud.",
+        "instructor": "Megan Wright"
+    }
+]

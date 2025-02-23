@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Dr. John Smith",
+        "image": "../assets/images/instructor1.jpg",
+        "specialization": "Data Science & AI",
+        "profile": "instructor-details.html"
+    },
+    {
+        "name": "Emily Johnson",
+        "image": "../assets/images/instructor2.jpg",
+        "specialization": "Full Stack Development",
+        "profile": "instructor-details.html"
+    },
+    {
+        "name": "Michael Brown",
+        "image": "../assets/images/instructor3.jpg",
+        "specialization": "Cybersecurity & Ethical Hacking",
+        "profile": "instructor-details.html"
+    },
+    {
+        "name": "Sophia Williams",
+        "image": "../assets/images/instructor4.jpg",
+        "specialization": "Cloud Computing & AWS",
+        "profile": "instructor-details.html"
+    },
+    {
+        "name": "Daniel Lee",
+        "image": "../assets/images/instructor5.jpg",
+        "specialization": "Business Analytics & Data Visualization",
+        "profile": "instructor-details.html"
+    }
+]
