@@ -1,9 +1,0 @@
-<h3 class="title">🌟 IPL Teams & Their Winning Chances</h3>
-<div class="team-list">
-  <div *ngFor="let team of processedTeams" class="team-card">
-    <img [src]="team.logo" class="team-logo" alt="{{ team.name }} Logo">
-    <h4>{{ team.name }}</h4>
-    <p>{{ team.message }}</p>
-    <p>🎯 Probability of Winning Next IPL: <strong>{{ team.winningProbability }}%</strong></p>
-  </div>
-</div>
