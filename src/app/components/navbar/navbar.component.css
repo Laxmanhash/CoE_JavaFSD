@@ -1,0 +1,52 @@
+.navbar {
+  background: linear-gradient(to right, #00796b, #004d40); /* Updated gradient with teal-green shades */
+  padding: 15px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Slightly stronger box-shadow for more depth */
+  transition: background 0.3s ease-in-out;
+}
+
+.navbar-brand {
+  font-size: 1.8rem; /* Increased font size for a bolder brand */
+  font-weight: 700; /* Bold font for more emphasis */
+  color: #fff !important;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Slightly larger gap between logo and text */
+  text-decoration: none;
+  letter-spacing: 2px; /* Added letter-spacing for a more distinct look */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Increased space between items for a cleaner layout */
+}
+
+.navbar-nav .nav-item {
+  list-style: none;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.1rem; /* Slightly reduced font size for a more balanced design */
+  font-weight: 500;
+  color: #fff !important;
+  padding: 12px 18px; /* Increased padding for more clickable area */
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase; /* Added uppercase for a more dynamic style */
+}
+
+.navbar-nav .nav-link:hover {
+  background: #ecef94; /* Bright yellow hover color */
+  color: #004d40 !important; /* Darker teal color on hover for contrast */
+}
+
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
